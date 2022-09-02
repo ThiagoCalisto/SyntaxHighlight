@@ -1,0 +1,25 @@
+{
+  "name": "pagode",
+  "displayName": "Pagode",
+  "description": "Wanderson syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pagode",
+      "aliases": ["Wanderson", "pagode"],
+      "extensions": [".pagode"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pagode",
+      "scopeName": "source.pagode",
+      "path": "./syntaxes/pagode.tmLanguage.json"
+    }]
+  }
+}

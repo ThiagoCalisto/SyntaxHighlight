@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Wanderson",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+	    {
+		 	"include": "#intents"
+		},
+		{
+			"include": "#sss"
+		},
+		{
+			"include": "#wrong"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.pagode",
+				"match": "^@\\w+"
+			}]
+		},
+		"intents": {
+			"patterns": [{
+				"name": "entity.name.function.pagode",
+				"match": "^=\\s[a-zA-ZÀ-ü].+"
+			}]
+		},
+		"sss": {
+			"patterns": [{
+				"name": "variable.parameter.pagode",
+				"match": "^>\\s[a-zA-ZÀ-ü].+"
+			}]
+		},
+		"wrong": {
+		"patterns": [{
+			"name": "constant.numeric.pagode",
+			"match": "^!\\s[a-zA-ZÀ-ü].+|^\\?\\s[a-zA-ZÀ-ü].+"
+		}]
+		},
+		"comments": {
+			"name": "string.quoted.double.pagode",
+			"begin": "^#",
+			"end": "\\n",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pagode",
+					"match": "^\\v#.*$"
+				}
+			]
+		}
+	},
+	"scopeName": "source.pagode"
+}
