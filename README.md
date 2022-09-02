@@ -1,6 +1,6 @@
-# pagode README
+### Wanderson Syntax Highlight
 
-This is the README for your extension "pagode". After writing up a brief description, we recommend including the following sections.
+
 
 ## Features
 
@@ -19,7 +19,7 @@ Instalar o lib yo
 ## Alocação para funcionar
 
 
-Colar essa pasta no diretorio *.vscode/extensions* com o nome da pasta *pagode*
+Colar essa pasta no diretorio **.vscode/extensions** com o nome da pasta **pagode**
 
 
 ### 1.0.0
