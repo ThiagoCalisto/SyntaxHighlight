@@ -24,5 +24,5 @@ Colar essa pasta no diretorio **.vscode/extensions** com o nome da pasta **pagod
 
 ### 1.0.0
 
-Initial release of Syntax Highlight VSCODE
+Initial release of Wanderson Syntax Highlight VSCODE
 
