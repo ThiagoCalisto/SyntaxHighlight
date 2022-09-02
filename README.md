@@ -4,13 +4,10 @@ This is the README for your extension "pagode". After writing up a brief descrip
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Syntax Highlight para o Wanderson
 
-For example if there is an image subfolder under your extension project workspace:
+![image](https://user-images.githubusercontent.com/51367004/188050994-a3c19c20-5ecb-4297-bf7d-65a75d5b6537.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
