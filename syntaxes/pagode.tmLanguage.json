@@ -28,19 +28,19 @@
 		"intents": {
 			"patterns": [{
 				"name": "entity.name.function.pagode",
-				"match": "^=\\s[a-zA-ZÀ-ü].+"
+				"match": "\\s*=\\s[a-zA-ZÀ-ü].+"
 			}]
 		},
 		"sss": {
 			"patterns": [{
 				"name": "variable.parameter.pagode",
-				"match": "^>\\s[a-zA-ZÀ-ü].+"
+				"match": "\\s*>\\s[a-zA-ZÀ-ü].+"
 			}]
 		},
 		"wrong": {
 		"patterns": [{
 			"name": "constant.numeric.pagode",
-			"match": "^!\\s[a-zA-ZÀ-ü].+|^\\?\\s[a-zA-ZÀ-ü].+"
+			"match": "\\s*!\\s[a-zA-ZÀ-ü].+|\\s*\\?\\s[a-zA-ZÀ-ü].+"
 		}]
 		},
 		"comments": {
