@@ -19,7 +19,7 @@ Instalar o lib yo
 ## Alocação para funcionar
 
 
-Colar essa pasta no diretorio **.vscode/extensions** com o nome da pasta **pagode**
+Colar os arquivos no diretorio **.vscode/extensions** com o nome da pasta **pagode**
 
 
 ### 1.0.0
